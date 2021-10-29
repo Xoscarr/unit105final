@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambo&display=swap');
+
+*{
+    margin:0;
+    text-decoration: none;
+}
+body{
+    font-family:'Cambo', serif; 
+}
+
+/*Header Section*/
+header{
+    height: 9.4vh;
+}
+header nav a{
+
+    margin-right: 60px;
+    font-size:25px;
+    font-weight: 100;
+}
+header nav{
+    text-align: center;
+    position: relative;
+    top:30px;
+}
+
+
+
+
+/*Body Section*/
+
+
+
+.form-container{
+    width: 70%;
+    margin: 1rem auto;
+}
+.form-container input,.form-container select{
+    width:100%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+.form-container input[type="color"]{
+    width: 3rem;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.btn-register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-register button{
+    width: 150px;
+    height: 50px;
+}
+.user-input{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: rgb(118, 221, 255);
+    padding:2rem;
+    width: 50%;
+    
+}
+.btn-login{
+    margin-top: 10px;
+}
+.user-input h1{
+    font-size:40px;
+    color:white;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+input{
+    font-size:16px;
+    padding:0.2px;
+
+}
+.user-input input,label{
+    width: 300px;
+    height: 45px;
+}
+.register-container{
+    margin-top: 30px;
+
+}
+.register-container h1{
+    background-color: rgb(118, 221, 255) ;
+    height:100px; 
+    top:-30px;
+    padding-top: 28px;
+}
+/* User Style */
+
+.table-users{
+    margin-top: 50px;
+}
